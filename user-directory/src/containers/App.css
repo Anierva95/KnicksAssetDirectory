@@ -63,4 +63,17 @@ h3 {
 
 .orange {
   background-color: #f58426;
+  cursor: pointer;
+}
+
+.orange:hover {
+  background-color: orangered;
+  cursor: pointer;
+}
+
+
+
+.unToggled:hover {
+  background-color: cornflowerblue;
+  cursor: pointer;
 }

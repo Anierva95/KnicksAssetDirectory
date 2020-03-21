@@ -13,6 +13,8 @@ function Table(props) {
    let toggleClassAsset;
    if (sortAsset) {
     toggleClassAsset = 'orange';
+  } else {
+    toggleClassAsset = 'unToggled';
   }
 
 
