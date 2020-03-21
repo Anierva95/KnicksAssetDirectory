@@ -10,6 +10,12 @@ function Table(props) {
 
    }
 
+   let toggleClassAsset;
+   if (sortAsset) {
+    toggleClassAsset = 'orange';
+  }
+
+
     return(
     <div class="container table">
         <table class="table table-striped">
@@ -18,7 +24,7 @@ function Table(props) {
       <th scope="col">First Name</th>
       <th scope="col">Last Name</th>
       <th scope="col">Position</th>
-      <th scope="col" onClick={toggleSortAsset} className='orange'>Asset Rank</th>
+      <th scope="col" onClick={toggleSortAsset} className={toggleClassAsset}>Asset Rank</th>
       <th scope="col">Description</th>
     </tr>
   </thead>
