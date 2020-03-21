@@ -3,34 +3,34 @@
     "First_Name": "Julius",
     "Last_Name": "Randle",
     "Position": "PF",
-    "Asset Rank": 3,
+    "Asset_Rank": 3,
     "Description": "Should be nicknamed 'Tornado Turnover'. How is this man paid nearly $20 million a year?"
 },
 {
     "First_Name": "RJ",
     "Last_Name": "Barrett",
     "Position": "SG",
-    "Asset Rank": 2,
-    "Description": "Promising rookie. Strong ability to drive to basket. Must work on jump shot."
+    "Asset_Rank": 2,
+    "Description": "Promising rookie. Strong ability to drive to basket. Alpha mentality. Must work on jump shot."
 },
 {
     "First_Name": "Mitchell",
     "Last_Name": "Robinson",
     "Position": "C",
-    "Asset Rank": 1,
+    "Asset_Rank": 1,
     "Description": "Beast in the paint. Almost broke NBA FG% record. If Knicks trade him, I am done."
 },
 {
     "First_Name": "Kevin",
     "Last_Name": "Knox",
     "Position": "SF",
-    "Asset Rank": 5,
-    "Description": "Has athletic potential. Instead, looks like a baby giraffe on the court."
+    "Asset_Rank": 5,
+    "Description": "Has athletic potential. Beautiful jump shot. Instead, looks like a baby giraffe on the court."
 },{
     "First_Name": "Frank",
     "Last_Name": "Nitilikina",
     "Position": "PG",
-    "Asset Rank": 4,
-    "Description": "First 2 years were garbage. Finally starting to show up in the 2019-20 season. Let's go Frankie!"
+    "Asset_Rank": 4,
+    "Description": "First 2 years were garbage. Finally starting to show up in the 2019-20 season. Defensive god. Let's go Frankie smokes!"
 }
 ]
