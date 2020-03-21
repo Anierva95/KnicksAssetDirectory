@@ -1,6 +1,6 @@
 import React from "react";
 
-function TableRow() {
+function TableRows() {
     return(
       <React.Fragment>
         <tr>
@@ -22,4 +22,4 @@ function TableRow() {
     )
 }
 
-export default TableRow;
+export default TableRows;
