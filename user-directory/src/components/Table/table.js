@@ -1,7 +1,7 @@
 import React from 'react'
 import TableRows from '../TableRows/Tablerows'
 
-function Table() {
+function Table(props) {
     return(
     <div class="container table">
         <table class="table table-striped">
@@ -15,7 +15,9 @@ function Table() {
     </tr>
   </thead>
   <tbody>
-      <TableRows/>
+      <TableRows
+      playerSearch={props.playerSearch}
+      />
   </tbody>
 </table>
 </div>

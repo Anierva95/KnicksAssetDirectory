@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Header from '../components/Header/header'
 import Table from '../components/Table/table'
 
 function App() {
+
+  const [playerName, updatePlayerName] = useState("");
+
+  const inputChangeHandler = (event) => {
+    updatePlayerName(event.target.value);
+  }
 
   const style ={
     marginTop: "10px",
@@ -14,14 +20,17 @@ function App() {
         <Header
         />
         <div className="nameSearch">
-        <h1>Search by Name: </h1>
+        <h3>Search by First Name: </h3>
         <input 
         style={style}
+        value={playerName}
+        onChange={inputChangeHandler}
         />
         </div>
         <body>
         </body>
         <Table
+        playerSearch={playerName}
         />
 
 

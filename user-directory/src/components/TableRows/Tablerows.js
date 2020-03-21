@@ -1,9 +1,13 @@
 import React from "react";
 import players from "../../players.json"
 
-function TableRows() {
+function TableRows(props) {
 
-  let playerRows = players.map(player => {
+  let filteredByName = players.filter(player => {
+    return (player.First_Name.toUpperCase().indexOf(props.playerSearch.toUpperCase()) === 0 || player.Last_Name.toUpperCase().indexOf(props.playerSearch.toUpperCase()) === 0 );
+  })
+
+  let playerRows = filteredByName.map(player => {
     return (
       <tr>
       <td>{player.First_Name}</td>
