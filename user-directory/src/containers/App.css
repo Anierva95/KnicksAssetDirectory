@@ -46,3 +46,15 @@ body {
 .table {
   opacity: 97%;
 }
+
+h1 {
+ color:	#f58426;
+}
+
+.nameSearch {
+  background-color: #006bb6;
+  width: 350px;
+  text-align: center;
+  margin: 0 auto;
+  opacity: 90%;
+}
