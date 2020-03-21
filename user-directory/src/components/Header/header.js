@@ -1,9 +1,10 @@
 import React from 'react';
+import "./header.css"
 
 function Header() {
     return(
-        <div>
-
+        <div className="header">
+            <p>User Directory</p>
         </div>
     )
 }
