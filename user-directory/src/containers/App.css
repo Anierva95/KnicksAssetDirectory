@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-image: url(https://s.yimg.com/uu/api/res/1.2/WAG_VFyA.4zD_eJpjCNPsA--~B/aD0xNzAwO3c9MzAyMjtzbT0xO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/pa-sport.com/a413d06b0b4f2c1633a86adc4dcb75a0);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.table {
+  opacity: 97%;
+}

@@ -4,7 +4,7 @@ import "./header.css"
 function Header() {
     return(
         <div className="header">
-            <p>User Directory</p>
+            <p>NY Knicks Player Directory</p>
         </div>
     )
 }
