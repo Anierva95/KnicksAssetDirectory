@@ -1,4 +1,5 @@
 import React from 'react'
+import TableRows from '../TableRows/Tablerows'
 
 function Table() {
     return(
@@ -7,27 +8,13 @@ function Table() {
         <table class="table table-striped">
   <thead>
     <tr>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
+      <th scope="col">First Name</th>
+      <th scope="col">Last Name</th>
       <th scope="col">Position</th>
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-    </tr>
+      <TableRows/>
   </tbody>
 </table>
 </div>
