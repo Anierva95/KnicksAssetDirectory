@@ -20,7 +20,7 @@ function App() {
         <Header
         />
         <div className="nameSearch">
-        <h3>Search by First Name: </h3>
+        <h3>Search by Name: </h3>
         <input 
         style={style}
         value={playerName}
