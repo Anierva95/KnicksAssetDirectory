@@ -54,5 +54,19 @@
     "Position": "SG",
     "Asset_Rank": 6,
     "Description": "Excellent effort. Great 3-point shot. Not sure why he did not get more minutes this year."
+},
+{
+    "First_Name": "Elfird",
+    "Last_Name": "Payton",
+    "Position": "PG",
+    "Asset_Rank": 9,
+    "Description": "Solid playmaking and ability to drive. Shooting is horrible and is a selfish stat padder."
+},
+{
+    "First_Name": "Reggie",
+    "Last_Name": "Bullock",
+    "Position": "SF",
+    "Asset_Rank": 10,
+    "Description": "Somewhat decent shooter. Really fell off this season in terms of consistency."
 }
 ]
