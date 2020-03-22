@@ -9,44 +9,55 @@ function Table(props) {
    const [sortPosition, updateSortPosition] = useState(false);
 
    const toggleSortAsset = () => {
-     updateSortAsset(!sortAsset)
+     updateSortAsset(!sortAsset);
+     updateSortFirst(false);
+     updateSortLast(false);
+     updateSortPosition(false);
    }
    const toggleSortFirst = () => {
-    updateSortFirst(!sortFirst)
+    updateSortFirst(!sortFirst);
+    updateSortAsset(false);
+    updateSortLast(false);
+    updateSortPosition(false);
   }
   const toggleSortLast = () => {
-    updateSortLast(!sortLast)
+    updateSortLast(!sortLast);
+    updateSortAsset(false);
+    updateSortFirst(false);
+    updateSortPosition(false);
   }
   const toggleSortPosition = () => {
     updateSortPosition(!sortPosition)
+    updateSortAsset(false);
+    updateSortFirst(false);
+    updateSortLast(false);
   }
+
   let toggleClassAsset;
   let toggleClassFirst;
   let toggleClassLast;
   let toggleClassPosition;
 
   if (sortAsset) {
-   toggleClassAsset = 'orange';
- } else {
-   toggleClassAsset = 'unToggled';
- }
- if (sortFirst) {
+  toggleClassAsset = 'orange';
+  } else {
+  toggleClassAsset = 'unToggled';
+  }
+  if (sortFirst) {
   toggleClassFirst = 'orange';
-} else {
+  } else {
   toggleClassFirst = 'unToggled';
-}
-if (sortLast) {
+  }
+  if (sortLast) {
   toggleClassLast = 'orange';
-} else {
+  } else {
   toggleClassLast = 'unToggled';
-}
-if (sortPosition) {
+  }
+  if (sortPosition) {
   toggleClassPosition = 'orange';
-} else {
+  } else {
   toggleClassPosition = 'unToggled';
-}
-
-
+  }
 
 
     return(
@@ -65,6 +76,9 @@ if (sortPosition) {
       <TableRows
       playerSearch={props.playerSearch}
       sortAssets={sortAsset}
+      sortFirst={sortFirst}
+      sortLast={sortLast}
+      sortPosition={sortPosition}
       />
   </tbody>
 </table>

@@ -3,14 +3,16 @@ import players from "../../players.json"
 
 function TableRows(props) {
 
+  // Filter names via the input
   let filteredByName = players.filter(player => {
     return (player.First_Name.toUpperCase().indexOf(props.playerSearch.toUpperCase()) === 0 || player.Last_Name.toUpperCase().indexOf(props.playerSearch.toUpperCase()) === 0 );
   });
 
-  let sorted;
+  let sortedByAsset;
+  let sortedByFirstName;
 
   if (props.sortAssets) {
-  sorted = filteredByName.sort((a,b) => {
+  sortedByAsset = filteredByName.sort((a,b) => {
     if (a.Asset_Rank > b.Asset_Rank) {
       return 1
     } else if (a.Asset_Rank < b.Asset_Rank) {
@@ -18,12 +20,25 @@ function TableRows(props) {
     }
     return 0;
   })} else {
-    sorted = filteredByName;
+    sortedByAsset = filteredByName;
   };
 
+  if (props.sortFirst) {
+    sortedByFirstName = filteredByName.sort((a,b) => {
+      if (a.First_Name > b.First_Name) {
+        return 1
+      } else if (a.First_Name < b.First_Name) {
+        return -1
+      }
+      return 0;
+    })} else {
+      sortedByFirstName = filteredByName;
+    };
 
 
-  let playerRows = sorted.map(player => {
+
+
+  let playerRows = filteredByName.map(player => {
     return (
       <tr>
       <td>{player.First_Name}</td>
