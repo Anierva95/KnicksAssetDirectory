@@ -67,7 +67,7 @@ h3 {
 }
 
 .orange:hover {
-  background-color: orangered;
+  opacity: .9;
   cursor: pointer;
 }
 
