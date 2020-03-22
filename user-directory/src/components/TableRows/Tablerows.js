@@ -10,6 +10,8 @@ function TableRows(props) {
 
   let sortedByAsset;
   let sortedByFirstName;
+  let sortedByLastName;
+  let sortedByPosition;
 
   if (props.sortAssets) {
   sortedByAsset = filteredByName.sort((a,b) => {
@@ -34,6 +36,31 @@ function TableRows(props) {
     })} else {
       sortedByFirstName = filteredByName;
     };
+
+  if (props.sortLast) {
+    sortedByLastName = filteredByName.sort((a,b) => {
+      if (a.Last_Name > b.Last_Name) {
+        return 1
+      } else if (a.Last_Name < b.Last_Name) {
+        return -1
+      }
+      return 0;
+    })} else {
+      sortedByLastName = filteredByName;
+    };
+
+  if (props.sortPosition) {
+    sortedByPosition = filteredByName.sort((a,b) => {
+      if (a.Position > b.Position) {
+        return 1
+      } else if (a.Position < b.Position) {
+        return -1
+      }
+      return 0;
+    })} else {
+      sortedByPosition = filteredByName;
+    };
+
 
 
 
