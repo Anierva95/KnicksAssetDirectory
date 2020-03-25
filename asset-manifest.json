@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/KnicksAssetDirectory/static/css/main.4a2a0f46.chunk.css",
+    "main.js": "/KnicksAssetDirectory/static/js/main.4535fe99.chunk.js",
+    "main.js.map": "/KnicksAssetDirectory/static/js/main.4535fe99.chunk.js.map",
+    "runtime-main.js": "/KnicksAssetDirectory/static/js/runtime-main.83027169.js",
+    "runtime-main.js.map": "/KnicksAssetDirectory/static/js/runtime-main.83027169.js.map",
+    "static/js/2.575c9dbd.chunk.js": "/KnicksAssetDirectory/static/js/2.575c9dbd.chunk.js",
+    "static/js/2.575c9dbd.chunk.js.map": "/KnicksAssetDirectory/static/js/2.575c9dbd.chunk.js.map",
+    "index.html": "/KnicksAssetDirectory/index.html",
+    "precache-manifest.035c21ea50cdaee1aaeb54abd9f70c09.js": "/KnicksAssetDirectory/precache-manifest.035c21ea50cdaee1aaeb54abd9f70c09.js",
+    "service-worker.js": "/KnicksAssetDirectory/service-worker.js",
+    "static/css/main.4a2a0f46.chunk.css.map": "/KnicksAssetDirectory/static/css/main.4a2a0f46.chunk.css.map",
+    "static/js/2.575c9dbd.chunk.js.LICENSE.txt": "/KnicksAssetDirectory/static/js/2.575c9dbd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.83027169.js",
+    "static/js/2.575c9dbd.chunk.js",
+    "static/css/main.4a2a0f46.chunk.css",
+    "static/js/main.4535fe99.chunk.js"
+  ]
+}
